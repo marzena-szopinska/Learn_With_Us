@@ -276,8 +276,50 @@ section div.container:hover div.middle {
   opacity: 1;
 }
 
+/* social media icons */
+
+section.social-icons ul li a i span {
+  margin-left: 20%;
+}
+
+section.social-icons ul li a i.fab {
+  position: fixed;
+  right: -11%;
+  color: #fff;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 2px 5px 5px #888;
+  width: 15%;
+  padding: 20px;
+  font-size: 130%;
+  z-index: 1000;
+  transition: right .8s, box-shadow .8s;
+}
+
+section.social-icons ul li a i.fa-google-plus-g {
+  top: 30%;
+  background: #d34836;
+}
+
+section.social-icons ul li a i.fa-facebook-f {
+  top: 40%;
+  background: #3b5998;
+}
+
+
+section.social-icons ul li a i.fa-twitter {
+  top: 50%;
+  background: #4099ff;
+}
+
+section.social-icons ul li a i.fab:hover {
+  right: -4%;
+  box-shadow: none;
+
+}
+
 footer {
   padding: 90px 0;
+  margin-top: 20px;
   width: 100%;
   background: linear-gradient(#555, #888);
 }
