@@ -275,3 +275,16 @@ section div.container:hover img {
 section div.container:hover div.middle {
   opacity: 1;
 }
+
+footer {
+  padding: 90px 0;
+  width: 100%;
+  background: linear-gradient(#555, #888);
+}
+
+footer p {
+  text-align: center;
+  margin: auto;
+  color: #aaa;
+  font-size: 130%;
+}
