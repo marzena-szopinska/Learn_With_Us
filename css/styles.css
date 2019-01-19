@@ -220,3 +220,58 @@ section.card-section div.card:hover div.front {
 section.card-section div.card:hover div.back {
   transform: perspective(600px) rotateY(0deg);
 }
+
+/* developer section */
+section.dev-section {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+section.dev-section div.container {
+  position: relative;
+  width: 31.3333%;
+  margin: auto;
+}
+
+section.dev-section div.container img {
+  width: 100%;
+  opacity: .7;
+  display: block;
+  height: auto;
+  transition: opacity .5s;
+}
+
+section.dev-section div.container div.middle {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  width: 60%;
+  /* hide the content */
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+section.dev-section div.container div.middle div.text {
+  padding: 16px 32px;
+  background: #47909a;
+  border-radius: 20px;
+  font-size: 100%;
+  text-align: center;
+}
+
+section.dev-section div.container div.middle div.text h3 {
+  color: #fff;
+}
+
+section.dev-section div.container div.middle div.text p {
+  color: #ccc;
+}
+
+section div.container:hover img {
+  opacity: .2;
+}
+
+section div.container:hover div.middle {
+  opacity: 1;
+}
